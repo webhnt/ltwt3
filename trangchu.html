@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Website Cá Nhân Hỗ Trợ Việc Giảng Dạy Của Giảng Viên</title>
+
+	<!-- Tích hợp bộ CSS của Booststrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS Riêng -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/icon.ico" />
+	<!-- Dong Ho -->
+	<link href="css/datepicker.css" rel="stylesheet">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/datepicker.js"></script>
+	<script src="js/datepicker.en.js"></script>
+	<!-- End DongHo -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
+	<script src="jquery/jquery-3.1.0.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			if ($('#back-to-top').length) {
+			    var scrollTrigger = 10, // px
+			    backToTop = function () {
+			    	var scrollTop = $(window).scrollTop();
+			    	if (scrollTop > scrollTrigger) {
+			    		$('#back-to-top').fadeIn();
+			    	} else {
+			    		$('#back-to-top').fadeOut();
+			    	}
+			    };
+			    backToTop();
+			    $(window).on('scroll', function () {
+			    	backToTop();
+			    });
+			    $('#back-to-top').on('click', function (e) {
+			    	e.preventDefault();
+			    	$('html,body').animate({
+			    		scrollTop: 0
+			    	}, 700);
+			    });
+			}
+		});
+
+	</script>
+</head>
+<body>
+	<div class="container">
+		<!-- Header -->
+		<div id="header" class="row">
+			<div class="col-md-7">
+				<img src="img/logo.jpg" width="150px" height="150px">
+				<div id="name-logo">
+					<h2> WEBSITE CÁ NHÂN </h2>
+					<h3> Hỗ Trợ Việc Giảng Dạy Của Giảng Viên</h3>
+					<h3> Nhóm 14 - LTW Sáng T3 </h3>
+				</div>			
+			</div>
+			<div class="col-md-5">
+				<div id="login" class="col-md-7">
+					<ul>	
+						<li><a href="trangdangky.html">ĐĂNG KÝ</a></li>
+						<li><a href=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ĐĂNG NHẬP</a></li>
+					</ul>
+				</div>	
+
+				<div id="custom-search-input">
+					<div id="search" class="input-group col-md-5">
+						<input type="text" class="  search-query form-control" placeholder="Tìm kiếm" />
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="button">
+								<span class=" glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- End Header -->
+		<!--Content-->
+		<div class="content">
+			<!--Slider Image-->
+			<div class="img-slide">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/slide1.jpg" alt="hoclaptrinhtainha">
+							<div class="carousel-caption">
+								Học lập trình tại nhà
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/slide2.jpg" alt="...">
+							<div class="carousel-caption">
+								Học lập trình tại nhà
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Lùi</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Tới</span>
+					</a>
+				</div>
+			</div>
+			<!-- End Slider Image-->
+
+			<!--Navbar-->
+			<div class="navbar">
+				<nav class="navbar navbar-light" style="background-color: #1B5A96;">
+					<ul class="nav navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Giới thiệu</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+			<!-- End Navbar-->
+
+			<!--Chia Khung-->
+			<div class="container-fluid">
+				<div class="row vdivide">
+					<div class="col-md-9">
+						<div class="panel-body">
+							<div class="panel panel-success">
+								<div class="panel-heading"> Thông Báo </div>
+								<div class="panel-body">
+
+									<img style="float:left;margin-right:10px;border-radius:80%;height:100px" src="img/logo.jpg">
+									<p style="text-align: justify;">Xây dựng nguồn nhân lực chất lượng cao là yếu tố quan trọng thể hiện nội lực quốc gia, góp phần phát triển kinh tế-xã hội bền vững, nâng cao vị thế của Việt Nam trên trường quốc tế. Trong bối cảnh hội nhập và cạnh tranh, để có thể tồn tại và góp phần tích cực trong việc phục vụ cộng đồng và đào tạo nguồn nhân lực chất lượng cao cho lĩnh vực Công nghệ thông tin, cũng như để có thể thích ứng và phát triển tiếp cận trình độ khu vực và trên thế giới, thầy trò Khoa CNTT cần nỗ lực hết sức, không ngừng đổi mới sáng tạo nhằm nâng cao chất lượng dạy-học, nghiên cứu, chuyển giao công nghệ....</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel-body">
+							<div class="panel panel-success">
+								<div class="panel-heading"> Thông Báo </div>
+								<div class="panel-body">
+
+									<img style="float:left;margin-right:10px;border-radius:80%;height:100px" src="img/logo.jpg">
+									<p style="text-align: justify;">Xây dựng nguồn nhân lực chất lượng cao là yếu tố quan trọng thể hiện nội lực quốc gia, góp phần phát triển kinh tế-xã hội bền vững, nâng cao vị thế của Việt Nam trên trường quốc tế. Trong bối cảnh hội nhập và cạnh tranh, để có thể tồn tại và góp phần tích cực trong việc phục vụ cộng đồng và đào tạo nguồn nhân lực chất lượng cao cho lĩnh vực Công nghệ thông tin, cũng như để có thể thích ứng và phát triển tiếp cận trình độ khu vực và trên thế giới, thầy trò Khoa CNTT cần nỗ lực hết sức, không ngừng đổi mới sáng tạo nhằm nâng cao chất lượng dạy-học, nghiên cứu, chuyển giao công nghệ....</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="datepicker-here" data-language='en'></div>
+					</div>
+				</div>
+			</div>
+
+			<!--End Chia Khung-->
+		</div>
+		<!--End Content-->
+		<!--Footer-->
+		<div id="footer" class="row">
+			<div class="col-md-6">
+				<img style="width:40px;	height:40px;padding: 5px" src="img/logo.jpg">
+				&copy 2016 - BẢN QUYỀN THUỘC VỀ NHÓM 14 LTW
+			</div>
+			<div class="col-md-6 powered">
+				<a href="" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-dribbble"><i class="fa fa-facebook"></i></a>
+				<a href="" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-dribbble"><i class="fa fa-youtube"></i></a>
+				<a href="" class="btn azm-social azm-size-64 azm-circle azm-long-shadow azm-dribbble"><i class="fa fa-google-plus"></i></a>
+
+			</div>
+		</div>
+		<!-- End Footer-->
+	</div>
+	<img id="back-to-top" src="img/back-to-top.png">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Tích hợp JS của Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
